@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -ne 'print if($.%2)' 102.odd
+paste -d, - - | cut -d, -f1
